@@ -1,0 +1,5 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<h1>It has been 2 days until last random master failure on IE10</h1>
+{% endblock %}

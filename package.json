@@ -1,0 +1,29 @@
+{
+  "name": "eye-of-beholder",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-data": "^1.2.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-inline-css": "^3.1.0",
+    "gulp-nunjucks-render": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "damn": "date -u > DAMN && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ertrzyiks/eye-of-beholder.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ertrzyiks/eye-of-beholder/issues"
+  },
+  "homepage": "https://github.com/ertrzyiks/eye-of-beholder#readme"
+}
