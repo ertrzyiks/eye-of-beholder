@@ -1,9 +1,9 @@
 html {
+  background-color: #5b6543;
   background-image: url('img/background.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
-
 }
 
 body {
