@@ -1,5 +1,9 @@
 {% extends "layout.nunjucks" %}
 
 {% block content %}
-<h1>It has been 2 days until last random master failure on IE10</h1>
+<div class="content">
+  <h2 class="just-text">It has been</h2>
+  <h3 class="days">2 days</h3>
+  <h4 class="just-text">since the last random master failure on IE10</h4>
+</div>
 {% endblock %}

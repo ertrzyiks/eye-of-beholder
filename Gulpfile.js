@@ -2,7 +2,7 @@ const gulp = require('gulp')
 const nunjucksRender = require('gulp-nunjucks-render')
 const data = require('gulp-data')
 const htmlmin = require('gulp-htmlmin')
-const inlineCss = require('gulp-inline-css')
+const inlinesource = require('gulp-inline-source')
 
 function getDataForFile(file) {
   return {
@@ -16,7 +16,7 @@ gulp.task('default', function () {
     .pipe(nunjucksRender({
       path: 'src/views'
     }))
-    .pipe(inlineCss())
+    .pipe(inlinesource())
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('docs'))
 })
